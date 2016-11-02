@@ -15,6 +15,7 @@ NSString *const StripePublishableKey = @"pk_test_IucXNorPHqToGZFnDiGt8SJA"; // T
 // To set this up, check out https://github.com/stripe/example-ios-backend
 // This should be in the format https://my-shiny-backend.herokuapp.com
 NSString *const BackendChargeURLString = @"https://zwick-simple-app.herokuapp.com/"; // TODO: replace nil with your own value
+//NSString *const BackendChargeURLString = @"https://runkit.io/zachwick/simpleapp-ios-backend/branches/master";
 
 // To learn how to obtain an Apple Merchant ID, head to https://stripe.com/docs/mobile/apple-pay
 NSString *const AppleMerchantId = nil; // TODO: replace nil with your own value
