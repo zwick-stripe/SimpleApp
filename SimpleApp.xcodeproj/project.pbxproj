@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5ACBA4E11DC9F12800335A21 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACBA4E01DC9F12800335A21 /* Constants.m */; };
+		5ACBA4E41DC9F29B00335A21 /* PaymentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACBA4E31DC9F29B00335A21 /* PaymentViewController.m */; };
 		5AF961BC1DC9EF0B0050020D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF961BB1DC9EF0B0050020D /* main.m */; };
 		5AF961BF1DC9EF0B0050020D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF961BE1DC9EF0B0050020D /* AppDelegate.m */; };
 		5AF961C21DC9EF0B0050020D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF961C11DC9EF0B0050020D /* ViewController.m */; };
@@ -15,6 +17,7 @@
 		5AF961CA1DC9EF0B0050020D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AF961C81DC9EF0B0050020D /* LaunchScreen.storyboard */; };
 		5AF961D51DC9EF0B0050020D /* SimpleAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF961D41DC9EF0B0050020D /* SimpleAppTests.m */; };
 		5AF961E01DC9EF0B0050020D /* SimpleAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AF961DF1DC9EF0B0050020D /* SimpleAppUITests.m */; };
+		86B143662D90B74916E89A36 /* Pods_SimpleApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C2FDA29BF206B1B7813AC9 /* Pods_SimpleApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		408DDC619BA9EF11245F57CF /* Pods-SimpleApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleApp/Pods-SimpleApp.debug.xcconfig"; sourceTree = "<group>"; };
+		58A77CD6EB19EBFDFB707B2C /* Pods-SimpleApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleApp/Pods-SimpleApp.release.xcconfig"; sourceTree = "<group>"; };
+		5ACBA4DF1DC9F0E500335A21 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		5ACBA4E01DC9F12800335A21 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		5ACBA4E21DC9F25800335A21 /* PaymentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PaymentViewController.h; sourceTree = "<group>"; };
+		5ACBA4E31DC9F29B00335A21 /* PaymentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaymentViewController.m; sourceTree = "<group>"; };
 		5AF961B71DC9EF0B0050020D /* SimpleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF961BB1DC9EF0B0050020D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5AF961BD1DC9EF0B0050020D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +60,7 @@
 		5AF961DB1DC9EF0B0050020D /* SimpleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AF961DF1DC9EF0B0050020D /* SimpleAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleAppUITests.m; sourceTree = "<group>"; };
 		5AF961E11DC9EF0B0050020D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C1C2FDA29BF206B1B7813AC9 /* Pods_SimpleApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				86B143662D90B74916E89A36 /* Pods_SimpleApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				5AF961D31DC9EF0B0050020D /* SimpleAppTests */,
 				5AF961DE1DC9EF0B0050020D /* SimpleAppUITests */,
 				5AF961B81DC9EF0B0050020D /* Products */,
+				75697712FB6D800DE195DD18 /* Pods */,
+				98DD046062EF161517582E84 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,6 +123,10 @@
 				5AF961C81DC9EF0B0050020D /* LaunchScreen.storyboard */,
 				5AF961CB1DC9EF0B0050020D /* Info.plist */,
 				5AF961BA1DC9EF0B0050020D /* Supporting Files */,
+				5ACBA4DF1DC9F0E500335A21 /* Constants.h */,
+				5ACBA4E01DC9F12800335A21 /* Constants.m */,
+				5ACBA4E21DC9F25800335A21 /* PaymentViewController.h */,
+				5ACBA4E31DC9F29B00335A21 /* PaymentViewController.m */,
 			);
 			path = SimpleApp;
 			sourceTree = "<group>";
@@ -140,6 +157,23 @@
 			path = SimpleAppUITests;
 			sourceTree = "<group>";
 		};
+		75697712FB6D800DE195DD18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				408DDC619BA9EF11245F57CF /* Pods-SimpleApp.debug.xcconfig */,
+				58A77CD6EB19EBFDFB707B2C /* Pods-SimpleApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		98DD046062EF161517582E84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C1C2FDA29BF206B1B7813AC9 /* Pods_SimpleApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +181,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AF961E41DC9EF0B0050020D /* Build configuration list for PBXNativeTarget "SimpleApp" */;
 			buildPhases = (
+				658D0443483FECCB533F64D6 /* Check Pods Manifest.lock */,
 				5AF961B31DC9EF0B0050020D /* Sources */,
 				5AF961B41DC9EF0B0050020D /* Frameworks */,
 				5AF961B51DC9EF0B0050020D /* Resources */,
+				F12F3A6F721B527D60952457 /* Embed Pods Frameworks */,
+				D982C9EFCCCCB9B30421B9F7 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -268,6 +305,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		658D0443483FECCB533F64D6 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D982C9EFCCCCB9B30421B9F7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleApp/Pods-SimpleApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F12F3A6F721B527D60952457 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleApp/Pods-SimpleApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AF961B31DC9EF0B0050020D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -276,6 +361,8 @@
 				5AF961C21DC9EF0B0050020D /* ViewController.m in Sources */,
 				5AF961BF1DC9EF0B0050020D /* AppDelegate.m in Sources */,
 				5AF961BC1DC9EF0B0050020D /* main.m in Sources */,
+				5ACBA4E41DC9F29B00335A21 /* PaymentViewController.m in Sources */,
+				5ACBA4E11DC9F12800335A21 /* Constants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +509,7 @@
 		};
 		5AF961E51DC9EF0B0050020D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 408DDC619BA9EF11245F57CF /* Pods-SimpleApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleApp/Info.plist;
@@ -433,6 +521,7 @@
 		};
 		5AF961E61DC9EF0B0050020D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58A77CD6EB19EBFDFB707B2C /* Pods-SimpleApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleApp/Info.plist;
@@ -507,6 +596,7 @@
 				5AF961E61DC9EF0B0050020D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AF961E71DC9EF0B0050020D /* Build configuration list for PBXNativeTarget "SimpleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +605,7 @@
 				5AF961E91DC9EF0B0050020D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5AF961EA1DC9EF0B0050020D /* Build configuration list for PBXNativeTarget "SimpleAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +614,7 @@
 				5AF961EC1DC9EF0B0050020D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
